@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>인재상 — SPECTRA 채용</title>
+  <meta name="description" content="해상도, 파장, 잔상 — 스펙트라가 어떤 사람과 일하는지 보여드립니다.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="gnb" data-page="culture">
+    <div class="container gnb__inner">
+      <a class="gnb__logo" href="../">SPECTRA</a>
+      <nav class="gnb__links" aria-label="주요 메뉴">
+        <a class="gnb__link" data-page="positions" href="../positions/">채용 공고</a>
+        <a class="gnb__link" data-page="culture" href="../culture/">인재상</a>
+        <a class="gnb__link" data-page="about" href="../about/">회사 소개</a>
+      </nav>
+      <a class="gnb__cta" href="../positions/">지원하기</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="culture-hero container">
+      <p class="section__eyebrow" style="justify-content:center; display:flex;">Culture</p>
+      <h1 class="h1">우리는 이런 사람과<br>문제를 풉니다.</h1>
+
+      <svg class="culture-hero__prism" viewBox="0 0 460 120" role="img" aria-label="하나의 빛이 세 갈래로 분광되는 모습">
+        <line x1="0" y1="60" x2="200" y2="60" stroke="var(--text-tertiary)" stroke-width="1.5"/>
+        <polygon points="200,40 200,80 232,60" fill="none" stroke="var(--accent-mint)" stroke-width="1.5"/>
+        <line x1="232" y1="60" x2="460" y2="20" stroke="var(--accent-mint)" stroke-width="1.5" opacity="0.9"/>
+        <line x1="232" y1="60" x2="460" y2="60" stroke="var(--accent-mint)" stroke-width="1.5" opacity="0.6"/>
+        <line x1="232" y1="60" x2="460" y2="100" stroke="var(--accent-mint)" stroke-width="1.5" opacity="0.35"/>
+      </svg>
+
+      <p class="culture-hero__lede">해상도(Resolution) · 파장(Wavelength) · 잔상(Afterimage) — 백색광이 프리즘을 통과해 스펙트럼으로 드러나듯, 스펙트라는 사람을 세 가지 기준으로 나눠 봅니다.</p>
+    </section>
+
+    <section class="culture-stack container">
+      <article class="culture-stack__item">
+        <div class="kw-card" data-reveal>
+          <div class="kw-card__label">
+            <span class="kr">해상도</span>
+            <span class="en">Resolution</span>
+          </div>
+          <p class="kw-card__def">모호한 말을 관측 가능한 단위로 쪼갠다.</p>
+          <div class="kw-card__examples">
+            <p class="kw-card__example"><b>01</b>&nbsp;"조직 분위기가 안 좋다"를 "특정 팀 3개월 내 1:1 실시율 40% 하락"으로 바꿔 말합니다.</p>
+            <p class="kw-card__example"><b>02</b>&nbsp;문제를 정의하기 전에 해결책을 먼저 꺼내지 않습니다.</p>
+          </div>
+        </div>
+      </article>
+      <div class="culture-stack__spacer" aria-hidden="true"></div>
+
+      <article class="culture-stack__item">
+        <div class="kw-card" data-reveal>
+          <div class="kw-card__label">
+            <span class="kr">파장</span>
+            <span class="en">Wavelength</span>
+          </div>
+          <p class="kw-card__def">다른 직군의 언어로 번역해 맞춘다.</p>
+          <div class="kw-card__examples">
+            <p class="kw-card__example"><b>01</b>&nbsp;엔지니어에게는 스키마로, HR 담당자에게는 실무 시나리오로 같은 내용을 설명합니다.</p>
+            <p class="kw-card__example"><b>02</b>&nbsp;합의되지 않은 채로 회의를 끝내지 않습니다.</p>
+          </div>
+        </div>
+      </article>
+      <div class="culture-stack__spacer" aria-hidden="true"></div>
+
+      <article class="culture-stack__item">
+        <div class="kw-card" data-reveal>
+          <div class="kw-card__label">
+            <span class="kr">잔상</span>
+            <span class="en">Afterimage</span>
+          </div>
+          <p class="kw-card__def">내가 떠난 뒤에도 남는 형태로 만든다.</p>
+          <div class="kw-card__examples">
+            <p class="kw-card__example"><b>01</b>&nbsp;두 번 이상 반복한 작업은 문서나 자동화로 남깁니다.</p>
+            <p class="kw-card__example"><b>02</b>&nbsp;나만 할 수 있는 일을 만들지 않습니다.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="culture-connect container" data-reveal>
+      <p class="section__eyebrow" style="justify-content:center; display:flex;">Interview</p>
+      <h2 class="h2">최종 면접은 이 세 가지를 묻습니다.</h2>
+      <p class="culture-connect__lede">면접 질문은 인재상 3개 키워드에서 출발합니다. 무엇을 평가하는지 숨기지 않습니다. 컬처 인터뷰 60분은 해상도·파장·잔상, 각 키워드에 대해 당신이 겪은 구체적 상황을 함께 되짚는 시간입니다.</p>
+      <a class="btn btn--ghost" href="../positions/">전형 절차 자세히 보기</a>
+    </section>
+
+    <section class="culture-cta container" data-reveal>
+      <h2 class="h2">해상도·파장·잔상, 익숙하게 느껴진다면</h2>
+      <p class="text-secondary" style="margin-top:12px;">지금 열려 있는 7개 포지션을 확인해보세요.</p>
+      <div style="margin-top:28px;">
+        <a class="btn btn--primary" href="../positions/">채용 공고 보러 가기</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2026 SPECTRA Inc. — 포트폴리오용 가상 프로젝트</span>
+      <span>서울 성수동 · 싱가포르</span>
+    </div>
+  </footer>
+
+  <script src="../assets/js/nav.js"></script>
+  <script src="../assets/js/motion.js"></script>
+</body>
+</html>

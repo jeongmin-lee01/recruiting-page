@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "slug": "frontend-engineer",
+    "title": "프론트엔드 엔지니어",
+    "track": "개발",
+    "experience": "3–7년",
+    "employment": "정규직",
+    "team": "Product Engineering / Web Platform"
+  },
+  {
+    "id": 2,
+    "slug": "backend-engineer",
+    "title": "백엔드 엔지니어 (Core HR)",
+    "track": "개발",
+    "experience": "5년 이상",
+    "employment": "정규직",
+    "team": "Product Engineering / Core HR"
+  },
+  {
+    "id": 3,
+    "slug": "data-engineer",
+    "title": "데이터 엔지니어",
+    "track": "개발",
+    "experience": "3년 이상",
+    "employment": "정규직",
+    "team": "Data Platform"
+  },
+  {
+    "id": 4,
+    "slug": "data-scientist",
+    "title": "데이터 사이언티스트 (Insight)",
+    "track": "개발",
+    "experience": "신입–3년",
+    "employment": "정규직",
+    "team": "Data Platform / Insight"
+  },
+  {
+    "id": 5,
+    "slug": "platform-engineer",
+    "title": "플랫폼 엔지니어",
+    "track": "개발",
+    "experience": "5년 이상",
+    "employment": "정규직",
+    "team": "Data Platform / Infrastructure"
+  },
+  {
+    "id": 6,
+    "slug": "pm-core-hr",
+    "title": "프로덕트 매니저 (Core HR)",
+    "track": "프로덕트",
+    "experience": "4년 이상",
+    "employment": "정규직",
+    "team": "Product / Core HR"
+  },
+  {
+    "id": 7,
+    "slug": "po-insight",
+    "title": "프로덕트 오너 (Insight)",
+    "track": "프로덕트",
+    "experience": "3년 이상",
+    "employment": "정규직",
+    "team": "Product / Insight"
+  }
+]

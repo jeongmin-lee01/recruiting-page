@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>채용 공고 — SPECTRA</title>
+  <meta name="description" content="스펙트라가 지금 찾고 있는 7개 포지션.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="gnb" data-page="positions">
+    <div class="container gnb__inner">
+      <a class="gnb__logo" href="../">SPECTRA</a>
+      <nav class="gnb__links" aria-label="주요 메뉴">
+        <a class="gnb__link" data-page="positions" href="../positions/">채용 공고</a>
+        <a class="gnb__link" data-page="culture" href="../culture/">인재상</a>
+        <a class="gnb__link" data-page="about" href="../about/">회사 소개</a>
+      </nav>
+      <a class="gnb__cta" href="../positions/">지원하기</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="positions-head container" data-reveal>
+      <h1 class="h1">채용 공고</h1>
+      <p class="positions-head__count text-secondary">현재 <span id="positions-head-count" class="num text-mint">7</span>개 포지션이 열려 있습니다.</p>
+    </section>
+
+    <section class="positions-filter container" data-reveal>
+      <div id="positions-app" data-src="../assets/data/positions.json" data-base="./">
+        <div class="chip-row" id="positions-filter" role="group" aria-label="직군 필터"></div>
+        <div class="positions-list">
+          <div class="positions-list__rows" id="positions-rows"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" style="padding-bottom: 96px;" data-reveal>
+      <div class="banner">
+        <div>
+          <p class="h3">맞는 포지션이 없다면</p>
+          <p class="text-secondary" style="margin-top: 8px;">인재풀에 등록해 두시면, 조건에 맞는 자리가 열릴 때 가장 먼저 안내드립니다.</p>
+        </div>
+        <a class="btn btn--ghost" href="mailto:careers@spectra.example?subject=인재풀 등록">인재풀 등록하기</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2026 SPECTRA Inc. — 포트폴리오용 가상 프로젝트</span>
+      <span>서울 성수동 · 싱가포르</span>
+    </div>
+  </footer>
+
+  <script src="../assets/js/nav.js"></script>
+  <script src="../assets/js/motion.js"></script>
+  <script src="../assets/js/positions.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPECTRA — 채용</title>
+  <meta name="description" content="조직은 하나의 색이 아니다. HR·피플 데이터 플랫폼 스펙트라의 채용 페이지.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <link rel="stylesheet" href="assets/css/intro.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <main id="main">
+    <section class="intro container">
+      <div class="intro__top" data-reveal>
+        <p class="intro__logo">SPECTRA</p>
+
+        <svg class="prism" viewBox="0 0 1160 190" preserveAspectRatio="xMinYMid meet" aria-hidden="true">
+          <path class="prism__beam" d="M20,95 L420,95" style="stroke-dasharray:400;stroke-dashoffset:400;"/>
+          <polygon class="prism__triangle" points="420,60 420,130 500,95" style="stroke-dasharray:245;stroke-dashoffset:245;"/>
+          <path class="prism__ray prism__ray--mint" d="M500,95 L1140,20" style="stroke-dasharray:645;stroke-dashoffset:645;"/>
+          <path class="prism__ray prism__ray--2" d="M500,95 L1140,65" style="stroke-dasharray:641;stroke-dashoffset:641;"/>
+          <path class="prism__ray prism__ray--3" d="M500,95 L1140,125" style="stroke-dasharray:641;stroke-dashoffset:641;"/>
+          <path class="prism__ray prism__ray--4" d="M500,95 L1140,170" style="stroke-dasharray:645;stroke-dashoffset:645;"/>
+        </svg>
+
+        <h1 class="intro__tagline display">조직은<br>하나의 색이 아니다.</h1>
+        <p class="intro__lede">
+          시리즈 C 단계의 HR·피플 데이터 플랫폼, 스펙트라입니다.
+          하나의 덩어리로 뭉뚱그려진 조직을 개인 단위의 데이터로 분광해 보여줍니다.
+        </p>
+      </div>
+
+      <nav class="intro__cards intro-cards" aria-label="채용 페이지 바로가기">
+        <a class="intro-card" href="positions/">
+          <div>
+            <span class="intro-card__num">01</span>
+            <h2 class="intro-card__title h3">채용 공고</h2>
+            <p class="intro-card__desc">지금 스펙트라가 찾는 자리를 확인하세요.</p>
+          </div>
+          <div>
+            <p class="intro-card__meta">현재 <span data-position-count data-src="assets/data/positions.json">7</span>개 포지션 채용 중</p>
+            <div class="intro-card__foot">
+              <span class="caption">Positions</span>
+              <span class="intro-card__arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="intro-card" href="culture/">
+          <div>
+            <span class="intro-card__num">02</span>
+            <h2 class="intro-card__title h3">인재상</h2>
+            <p class="intro-card__desc">스펙트라가 어떤 사람과 일하는지 보여드립니다.</p>
+          </div>
+          <div>
+            <p class="intro-card__meta">해상도 · 파장 · 잔상</p>
+            <div class="intro-card__foot">
+              <span class="caption">Culture</span>
+              <span class="intro-card__arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="intro-card" href="about/">
+          <div>
+            <span class="intro-card__num">03</span>
+            <h2 class="intro-card__title h3">회사 소개</h2>
+            <p class="intro-card__desc">스펙트라가 어디까지 왔고, 어디로 가는지 소개합니다.</p>
+          </div>
+          <div>
+            <p class="intro-card__meta">도입 1,400+ 개사 · 구성원 214명</p>
+            <div class="intro-card__foot">
+              <span class="caption">About</span>
+              <span class="intro-card__arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </a>
+      </nav>
+    </section>
+  </main>
+
+  <script src="assets/js/motion.js"></script>
+  <script src="assets/js/positions.js"></script>
+</body>
+</html>

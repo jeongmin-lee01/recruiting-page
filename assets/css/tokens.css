@@ -1,0 +1,46 @@
+/* SPECTRA — Design Tokens (PRD 9.2) */
+:root {
+  /* 60% Dominant */
+  --bg-base: #0B0B0D;
+
+  /* 30% Secondary */
+  --text-primary: #EDEDEC;
+  --text-secondary: rgba(237, 237, 236, 0.6);
+  --text-tertiary: rgba(237, 237, 236, 0.4);
+  --surface-card: #17171A;
+  --line-default: #2A2A2E;
+
+  /* 10% Accent */
+  --accent-mint: #2ED9A8;
+  --accent-mint-08: rgba(46, 217, 168, 0.08);
+  --accent-mint-12: rgba(46, 217, 168, 0.12);
+  --accent-mint-24: rgba(46, 217, 168, 0.24);
+
+  /* Typography */
+  --font-kr: "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-en: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --fs-display: clamp(2.5rem, 6vw, 4rem);
+  --fs-h1: clamp(2rem, 4.2vw, 3rem);
+  --fs-h2: clamp(1.5rem, 3vw, 2rem);
+  --fs-h3: clamp(1.15rem, 2vw, 1.5rem);
+  --fs-body: 1rem;
+  --fs-caption: 0.8125rem;
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 300ms;
+  --dur-base: 450ms;
+  --dur-slow: 600ms;
+  --dur-interact: 300ms; /* 200–400ms 인터랙션 규칙 */
+
+  /* Layout */
+  --container-max: 1200px;
+  --gutter: 24px;
+  --nav-height: 72px;
+  --nav-height-scrolled: 56px;
+
+  --radius-s: 6px;
+  --radius-m: 10px;
+  --radius-l: 16px;
+}
