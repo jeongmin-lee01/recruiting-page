@@ -92,12 +92,14 @@ main { display: block; }
 }
 
 .section__head { max-width: 640px; margin-bottom: clamp(32px, 5vw, 56px); }
+.section__head p { margin-top: 12px; }
 .section__eyebrow {
   display: inline-flex; align-items: center; gap: 8px;
   color: var(--accent-mint); font-size: var(--fs-caption);
   font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
   margin-bottom: 12px;
 }
+.section__eyebrow--center { display: flex; justify-content: center; }
 
 @media (max-width: 767px) {
   .container { padding-inline: 20px; }

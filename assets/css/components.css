@@ -270,6 +270,8 @@
   flex-wrap: wrap;
   background: var(--surface-card);
 }
+.banner p.text-secondary { margin-top: 8px; }
+section.container:has(> .banner) { padding-bottom: 96px; }
 
 /* ---------- Keyword card (인재상) ---------- */
 .kw-card {
@@ -339,6 +341,7 @@
 }
 .module-card__name { color: var(--accent-mint); font-weight: 700; font-family: var(--font-en); }
 .module-card__desc { margin-top: 10px; color: var(--text-secondary); }
+.module-grid + .callout { margin-top: 32px; }
 
 @media (max-width: 767px) {
   .module-grid { grid-template-columns: 1fr; }

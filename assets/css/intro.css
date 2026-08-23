@@ -26,6 +26,14 @@
 .prism__ray--3 { stroke: var(--text-primary); stroke-opacity: var(--prism-ray-op-3); }
 .prism__ray--4 { stroke: var(--text-primary); stroke-opacity: var(--prism-ray-op-4); }
 
+/* 경로 길이만큼 dasharray/dashoffset을 지정해 draw-in 애니메이션의 시작 상태를 만든다 */
+.prism__beam { stroke-dasharray: 400; stroke-dashoffset: 400; }
+.prism__triangle { stroke-dasharray: 245; stroke-dashoffset: 245; }
+.prism__ray--mint { stroke-dasharray: 645; stroke-dashoffset: 645; }
+.prism__ray--2 { stroke-dasharray: 641; stroke-dashoffset: 641; }
+.prism__ray--3 { stroke-dasharray: 641; stroke-dashoffset: 641; }
+.prism__ray--4 { stroke-dasharray: 645; stroke-dashoffset: 645; }
+
 /* 입사광(0.4s) → 삼각형(0.5s) → 분광 광선 순차(0.6s) = 총 1.5s 이내 */
 @keyframes prism-draw {
   to { stroke-dashoffset: 0; }
